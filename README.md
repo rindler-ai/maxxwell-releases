@@ -1,23 +1,23 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.207](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.207)
+Latest release: [v0.1.213](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.213)
 
 ## Release identity
 
-- Version: v0.1.207
-- Build: global-503
-- Source commit: 09ecf53c52081e3d160d4ecb582781e7968d9b36
-- Staged: November 3, 2026 at 1:07:58 AM PST
+- Version: v0.1.213
+- Build: global-509
+- Source commit: 2178554f26ca8d5c5b84744f555f152d4c8067dc
+- Staged: November 4, 2026 at 6:42:45 PM PST
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.dmg`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/Maxxwell-darwin-arm64.dmg) | Open it and drag Maxxwell to Applications. |
-| Linux x64 | [`maxxwell_0.1.207-global-503_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell_0.1.207-global-503_amd64.deb) | Double-click it to install. Recommended on Ubuntu 23.10 and later: the .deb installs the Chromium sandbox helper. |
-Advanced: [Linux tarball (`Maxxwell-linux-x64.tar.gz`)](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/Maxxwell-linux-x64.tar.gz). On Ubuntu 23.10 and later, it needs a Chromium sandbox helper; the .deb installs it for you.
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/Maxxwell-windows-x64.zip) | Right-click the ZIP, choose Extract All, then open Maxxwell. SmartScreen will warn. |
-| Phone (Android) | [`Maxxwell-Android-debug.apk`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/Maxxwell-Android-debug.apk) | Download it on your phone, open the APK, and allow installation when Android asks. Debug build for sideload, signed with the stable Maxxwell Android key, so a newer APK installs over this one. |
+| macOS arm64 | [`Maxxwell-darwin-arm64.dmg`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/Maxxwell-darwin-arm64.dmg) | Open it and drag Maxxwell to Applications. |
+| Linux x64 | [`maxxwell_0.1.213-global-509_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell_0.1.213-global-509_amd64.deb) | Double-click it to install. Recommended on Ubuntu 23.10 and later: the .deb installs the Chromium sandbox helper. |
+Advanced: [Linux tarball (`Maxxwell-linux-x64.tar.gz`)](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/Maxxwell-linux-x64.tar.gz). On Ubuntu 23.10 and later, it needs a Chromium sandbox helper; the .deb installs it for you.
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/Maxxwell-windows-x64.zip) | Right-click the ZIP, choose Extract All, then open Maxxwell. SmartScreen will warn. |
+| Phone (Android) | [`Maxxwell-Android.apk`](https://github.com/rindler-ai/maxxwell-releases/releases/download/v0.1.213/Maxxwell-Android.apk) | Download it on your phone, open the APK, and allow installation when Android asks. Release build signed with the stable Maxxwell Android key, so a newer APK installs over this one. Attached after the desktop build is published. |
 
-[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/SHA256SUMS.txt) verifies every published artifact.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/SHA256SUMS.txt) verifies every published artifact.
 
 ## The `maxxwell` CLI on its own
 
@@ -36,11 +36,11 @@ maxxwell help                          every command
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`maxxwell-darwin-cli-arm64-global-503.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-darwin-cli-arm64-global-503.tar.gz) | `tar -xzf maxxwell-darwin-cli-arm64-global-503.tar.gz` |
-| macOS x64 | [`maxxwell-darwin-cli-x64-global-503.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-darwin-cli-x64-global-503.tar.gz) | `tar -xzf maxxwell-darwin-cli-x64-global-503.tar.gz` |
-| Linux x64 | [`maxxwell-linux-cli-x64-global-503.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-linux-cli-x64-global-503.tar.gz) | `tar -xzf maxxwell-linux-cli-x64-global-503.tar.gz` |
-| Linux arm64 | [`maxxwell-linux-cli-arm64-global-503.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-linux-cli-arm64-global-503.tar.gz) | `tar -xzf maxxwell-linux-cli-arm64-global-503.tar.gz` |
-| Windows x64 (unsigned) | [`maxxwell-windows-cli-x64-global-503.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-windows-cli-x64-global-503.zip) | `Expand-Archive .\maxxwell-windows-cli-x64-global-503.zip` (SmartScreen will warn) |
+| macOS arm64 | [`maxxwell-darwin-cli-arm64-global-509.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-darwin-cli-arm64-global-509.tar.gz) | `tar -xzf maxxwell-darwin-cli-arm64-global-509.tar.gz` |
+| macOS x64 | [`maxxwell-darwin-cli-x64-global-509.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-darwin-cli-x64-global-509.tar.gz) | `tar -xzf maxxwell-darwin-cli-x64-global-509.tar.gz` |
+| Linux x64 | [`maxxwell-linux-cli-x64-global-509.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-linux-cli-x64-global-509.tar.gz) | `tar -xzf maxxwell-linux-cli-x64-global-509.tar.gz` |
+| Linux arm64 | [`maxxwell-linux-cli-arm64-global-509.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-linux-cli-arm64-global-509.tar.gz) | `tar -xzf maxxwell-linux-cli-arm64-global-509.tar.gz` |
+| Windows x64 (unsigned) | [`maxxwell-windows-cli-x64-global-509.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-windows-cli-x64-global-509.zip) | `Expand-Archive .\maxxwell-windows-cli-x64-global-509.zip` (SmartScreen will warn) |
 
 Each archive contains a single `maxxwell` executable. Put it on your `PATH`.
 Sessions and the fleet commands drive `tmux`, so install that too on Linux and macOS.
@@ -94,8 +94,8 @@ macOS arm64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-darwin-cli-arm64-global-503.tar.gz
-tar -xzf maxxwell-darwin-cli-arm64-global-503.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-darwin-cli-arm64-global-509.tar.gz
+tar -xzf maxxwell-darwin-cli-arm64-global-509.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -103,8 +103,8 @@ macOS x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-darwin-cli-x64-global-503.tar.gz
-tar -xzf maxxwell-darwin-cli-x64-global-503.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-darwin-cli-x64-global-509.tar.gz
+tar -xzf maxxwell-darwin-cli-x64-global-509.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -112,8 +112,8 @@ Linux x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.207/maxxwell-linux-cli-x64-global-503.tar.gz
-tar -xzf maxxwell-linux-cli-x64-global-503.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.213/maxxwell-linux-cli-x64-global-509.tar.gz
+tar -xzf maxxwell-linux-cli-x64-global-509.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -131,13 +131,13 @@ From v0.1.62 on, `maxxwell self-update` downloads from this repository.
 | macOS Intel (x64) | CLI ONLY | no Intel app is published: Intel Macs are not a supported app platform (Apple Silicon is). The standalone x64 CLI tarball is cross-built by the Linux job, unsigned, and carries the `maxxwell` executable alone with NO bundled tmux, so the host supplies tmux |
 | Linux arm64 | CLI ONLY | the standalone arm64 CLI tarball is cross-built by the Linux job (pure Go) and included in the signed release manifest; there is no arm64 app or .deb, because the Electron bundle and node-pty need host-native packaging. Like the x64 CLI tarball it carries the `maxxwell` executable alone and NO bundled tmux -- the tmux pin manifest declares one asset, darwin-arm64 -- so the host supplies tmux, which is what the .deb's `Depends: tmux` already assumes |
 | Windows | BUILT | Linux-cross-built unsigned x64 app/CLI ZIPs; target PE modules validated; SmartScreen will warn; no walk of this build was recorded when it was staged; last recorded walk v0.1.137 (2026-09-30): first run to a working seat and two sends (J1) 3/3; update in-app and by ZIP from v0.1.134, v0.1.135 and v0.1.136 6/6; the seat resumed after its tmux server was killed (J3) |
-| Android phone | BUILT | debug-build APK for sideload, signed with the one stable Android release key so it installs over the previous release; no physical-phone install is verified by this release run |
+| Android phone | NOT IN THIS RUN | the R8 release build passed its emulator save smoke here; the APK is built and signed locally by scripts/release/publish-android.sh and attached to this release as Maxxwell-Android.apk, never by CI |
 
 No declared platform artifacts are pending.
 
-Release bar for this build's candidate (its release-bar/<platform> commit statuses on 09ecf53c52081e3d160d4ecb582781e7968d9b36, read before publish):
+Release bar for this build's candidate (its release-bar/<platform> commit statuses on 2178554f26ca8d5c5b84744f555f152d4c8067dc, read before publish):
 PASS = walked and passed; FAIL = walked and failed; NOT MEASURED = no walk result for this release run.
 
-- linux NOT MEASURED -- not measured on linux (no release-bar/linux status on 09ecf53c52081e3d160d4ecb582781e7968d9b36)
-- windows NOT MEASURED -- not measured on windows (no release-bar/windows status on 09ecf53c52081e3d160d4ecb582781e7968d9b36)
-- darwin NOT MEASURED (Mac offline) -- not measured on darwin (no release-bar/darwin status on 09ecf53c52081e3d160d4ecb582781e7968d9b36); no step waits on the Mac
+- linux NOT MEASURED -- not measured on linux (no release-bar/linux status on 2178554f26ca8d5c5b84744f555f152d4c8067dc)
+- windows NOT MEASURED -- not measured on windows (no release-bar/windows status on 2178554f26ca8d5c5b84744f555f152d4c8067dc)
+- darwin NOT MEASURED (no release-bar/darwin status) -- not measured on darwin (no release-bar/darwin status on 2178554f26ca8d5c5b84744f555f152d4c8067dc); no step waits on the Mac
